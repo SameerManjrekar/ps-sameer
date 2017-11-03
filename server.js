@@ -69,4 +69,4 @@ mongoose.connect('mongodb://sammy:sammy@ds117311.mlab.com:17311/sammysocial', { 
 
 app.use('/auth', auth.router);
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);

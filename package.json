@@ -15,5 +15,8 @@
     "express": "^4.16.2",
     "jwt-simple": "^0.5.1",
     "mongoose": "^4.12.4"
+  },
+  "engines": {
+    "node": "8.2.1"
   }
 }
